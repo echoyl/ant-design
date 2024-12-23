@@ -27,6 +27,7 @@ interface FormItemInputMiscProps {
         input: JSX.Element;
         errorList: JSX.Element | null;
         extra: JSX.Element | null;
+        additional: JSX.Element | null;
       },
     ) => React.ReactNode;
   };
